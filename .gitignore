@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# System- and Run-specific files
+out/
+results/
+
+# Temporarily Excluding Makefile since libraries are defined as hardcoded, absolute paths. Really OMNET??
+Makefile
